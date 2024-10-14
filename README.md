@@ -60,7 +60,6 @@ To run the application, follow these steps:
 
 ## Links
 - **GitHub Repository**: [Simple-Shopping-App-React](https://github.com/Abdelaziz-Mohammed/Simple-Shopping-App-React)
-- **GitHub Page**: [Simple Shopping App Web Page](https://abdelaziz-mohammed.github.io/Simple-Shopping-App-React)
 
 ## Author
 This project was created and developed by [Eng: Abdelaziz Mohamed].
