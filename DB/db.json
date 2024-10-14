@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Burger",
+      "count": 1,
+      "isInCart": false,
+      "price": 5.99
+    },
+    {
+      "id": "2",
+      "name": "Fries",
+      "count": 1,
+      "isInCart": false,
+      "price": 2.99
+    },
+    {
+      "id": "3",
+      "name": "Pizza",
+      "count": 1,
+      "isInCart": false,
+      "price": 8.99
+    },
+    {
+      "id": "4",
+      "name": "Salad",
+      "count": 1,
+      "isInCart": false,
+      "price": 4.99
+    },
+    {
+      "id": "5",
+      "name": "Cola",
+      "count": 1,
+      "isInCart": false,
+      "price": 1.99
+    },
+    {
+      "id": "6",
+      "name": "Chicken Sandwich",
+      "count": 1,
+      "isInCart": false,
+      "price": 6.49
+    },
+    {
+      "id": "7",
+      "name": "Chocolate Shake",
+      "count": 1,
+      "isInCart": false,
+      "price": 3.99
+    },
+    {
+      "id": "8",
+      "name": "Ice Cream",
+      "count": 1,
+      "isInCart": false,
+      "price": 2.49
+    },
+    {
+      "id": "9",
+      "name": "Grilled Cheese",
+      "count": 1,
+      "isInCart": false,
+      "price": 4.49
+    },
+    {
+      "id": "10",
+      "name": "Hot Dog",
+      "count": 1,
+      "isInCart": false,
+      "price": 3.49
+    }
+  ]
+}
