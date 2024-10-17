@@ -1,65 +1,73 @@
 
-# Simple_Shopping_App_React
-This is a simple shopping application built with React, allowing users to view a menu of products, manage a shopping cart, and access an admin panel for adding or editing products.
+# Simple Shopping App - React
 
-## Shopping App
-Welcome to the Shopping App! 
-This application allows users to browse a menu of products, add them to their shopping cart, and proceed to checkout. 
-Admin users can also add, edit, and delete products.
-This app is made by me at my react.js learning journey.
+The **Simple Shopping App** is a straightforward application built with React.js, providing users with an interface to browse products, manage their shopping cart, and access an admin panel for managing product entries.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
-- [Project Folder Details](#project-folder-details)
+- [Project Folder Structure](#project-folder-structure)
 - [Features](#features)
-- [Setup](#setup)
+- [Setup Instructions](#setup-instructions)
 - [Links](#links)
-- [Auther](#auther)
+- [Author](#author)
 
 ## Technologies Used
-- **React.js** - A JavaScript library for building user interfaces.
-- **React Router** - For routing and navigation within the app.
-- **Axios** - For making HTTP requests to the backend.
-- **Bootstrap** - For responsive design and styling.
-- **Font Awesome** - For icons.
-- **JSON Server** - A simple way to create a RESTful API using a JSON file.
+- **React.js** – For building the user interface.
+- **React Router** – For handling navigation.
+- **Axios** – For handling HTTP requests.
+- **Bootstrap** – For responsive styling and layout.
+- **Font Awesome** – For icons.
+- **JSON Server** – For simulating a REST API with a JSON file.
 
-## Project Folder Details
-- **DB Folder**: Contains db.json, which serves as the database for products.
-- **src Folder**: Contains all the React application files, including components, pages, Layouts, and styles.
+## Project Folder Structure
+- **DB Folder**: Contains `db.json`, which serves as the mock database for product data.
+- **src Folder**: Contains all React application files, including components, pages, layouts, and styles.
 
 ## Features
-- **User Interface:**
-  - Browse a menu of products.
-  - Add products to the shopping cart.
-  - View the shopping cart and proceed to checkout.
-- **Admin Functionality:**
-  - Add new products to the menu.
-  - Edit existing products.
-  - Delete products from the menu.
-- **Checkout:**
-  - Review selected items and their total price before finalizing the purchase.
+### User Interface:
+- Browse a catalog of products.
+- Add items to the shopping cart.
+- View and manage the shopping cart before proceeding to checkout.
 
-## Setup
-To run the application, follow these steps:
+### Admin Features:
+- Add new products.
+- Edit existing products.
+- Delete products from the catalog.
+
+### Checkout:
+- Review selected products and the total price before completing the purchase.
+
+## Setup Instructions
+To set up and run the application locally, follow these steps:
+
 1. **Clone the Repository:**
-    - $ git clone https://github.com/Abdelaziz-Mohammed/Simple-Shopping-App-React.git
+   ```bash
+   git clone https://github.com/Abdelaziz-Mohammed/Simple-Shopping-App-React.git
+   ```
+
 2. **Install Dependencies:**
-    - $ npm install
+   ```bash
+   npm install
+   ```
+
 3. **Run JSON Server:**
-    Open terminal and run:
-    - $ npx json-server --watch DB\db.json --port 3001
-4. **Start the React Application**: 
-    In another terminal, run:
-    - $ npm start
-5. **Open the Application in Your Browser:**
-    - To watch db.json:
-    Go to http://localhost:3001/products in your web browser.
-    - To watch the React App:
-    Go to http://localhost:3000 in your browser.
+   In a terminal, run the following command to start the mock backend:
+   ```bash
+   npx json-server --watch DB/db.json --port 3001
+   ```
+
+4. **Start the React Application:**
+   Open another terminal and run:
+   ```bash
+   npm start
+   ```
+
+5. **Access the Application:**
+   - To view the mock data: Go to `http://localhost:3001/products`
+   - To use the shopping app: Go to `http://localhost:3000`
 
 ## Links
-- **GitHub Repository**: [Simple-Shopping-App-React](https://github.com/Abdelaziz-Mohammed/Simple-Shopping-App-React)
+- **GitHub Repository**: [Simple Shopping App - React](https://github.com/Abdelaziz-Mohammed/Simple-Shopping-App-React)
 
 ## Author
-This project was created and developed by [Eng: Abdelaziz Mohamed].
+This project was created and developed by [**Eng: Abdelaziz Mohamed**].
